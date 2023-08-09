@@ -1,0 +1,242 @@
+[1691589615.485][INFO]: Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 12207
+[1691589615.485][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1691589616.088][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Public\\Documents\\ATQAtask3.2.1\\build\\downloads\\1691589613564_12952_1",
+               "plugins.always_open_pdf_externally": true,
+               "profile.default_content_setting_values.automatic_downloads": 1
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage", "--no-sandbox" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Public\\Documents\\ATQAtask3.2.1\\build\\downloads\\1691589613564_12952_1",
+            "plugins.always_open_pdf_externally": true,
+            "profile.default_content_setting_values.automatic_downloads": 1
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1691589616.092][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Public\\Documents\\ATQAtask3.2.1\\build\\downloads\\1691589613564_12952_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "automatic_downloads": 1,
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1691589616.093][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1691589616.117][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-sandbox --no-service-autorun --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\9FA5~1\AppData\Local\Temp\scoped_dir14472_2100163156" data:,
+[1691589616.725][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1691589616.743][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "114.0.5735.248",
+      "chrome": {
+         "chromedriverVersion": "114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052})",
+         "userDataDir": "C:\\Users\\9FA5~1\\AppData\\Local\\Temp\\scoped_dir14472_2100163156"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:52230"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "d78d41dfc57853219542368eecba6dcc"
+}
+[1691589616.848][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1691589616.848][INFO]: Waiting for pending navigations...
+[1691589616.854][INFO]: Done waiting for pending navigations. Status: ok
+[1691589616.973][INFO]: Waiting for pending navigations...
+[1691589616.974][INFO]: Done waiting for pending navigations. Status: ok
+[1691589616.974][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE SetWindowRect {
+   "height": 770,
+   "width": 1368,
+   "x": 8,
+   "y": 8
+}
+[1691589616.988][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1691589616.988][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE SetTimeouts
+[1691589617.004][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND Navigate {
+   "url": "http://localhost:9999"
+}
+[1691589617.004][INFO]: Waiting for pending navigations...
+[1691589617.006][INFO]: Done waiting for pending navigations. Status: ok
+[1691589619.418][INFO]: Waiting for pending navigations...
+[1691589619.478][INFO]: Done waiting for pending navigations. Status: ok
+[1691589619.639][INFO]: Waiting for pending navigations...
+[1691589619.655][INFO]: Done waiting for pending navigations. Status: ok
+[1691589621.851][INFO]: Waiting for pending navigations...
+[1691589621.866][INFO]: Done waiting for pending navigations. Status: ok
+[1691589621.866][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=114.0.5735.248)
+[1691589621.886][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND GetTitle {
+}
+[1691589621.886][INFO]: Waiting for pending navigations...
+[1691589621.887][INFO]: Done waiting for pending navigations. Status: ok
+[1691589621.898][INFO]: Waiting for pending navigations...
+[1691589621.899][INFO]: Done waiting for pending navigations. Status: ok
+[1691589621.899][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE GetTitle "localhost"
+[1691589621.916][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND Navigate {
+   "url": "http://localhost:9999"
+}
+[1691589621.916][INFO]: Waiting for pending navigations...
+[1691589621.917][INFO]: Done waiting for pending navigations. Status: ok
+[1691589622.055][INFO]: Waiting for pending navigations...
+[1691589622.071][INFO]: Done waiting for pending navigations. Status: ok
+[1691589624.296][INFO]: Waiting for pending navigations...
+[1691589624.312][INFO]: Done waiting for pending navigations. Status: ok
+[1691589624.449][INFO]: Waiting for pending navigations...
+[1691589624.463][INFO]: Done waiting for pending navigations. Status: ok
+[1691589624.463][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=114.0.5735.248)
+[1691589624.469][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND GetTitle {
+}
+[1691589624.469][INFO]: Waiting for pending navigations...
+[1691589624.470][INFO]: Done waiting for pending navigations. Status: ok
+[1691589624.475][INFO]: Waiting for pending navigations...
+[1691589624.476][INFO]: Done waiting for pending navigations. Status: ok
+[1691589624.476][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE GetTitle "localhost"
+[1691589624.485][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND Navigate {
+   "url": "http://localhost:9999"
+}
+[1691589624.485][INFO]: Waiting for pending navigations...
+[1691589624.486][INFO]: Done waiting for pending navigations. Status: ok
+[1691589626.703][INFO]: Waiting for pending navigations...
+[1691589626.718][INFO]: Done waiting for pending navigations. Status: ok
+[1691589626.872][INFO]: Waiting for pending navigations...
+[1691589626.885][INFO]: Done waiting for pending navigations. Status: ok
+[1691589629.102][INFO]: Waiting for pending navigations...
+[1691589629.116][INFO]: Done waiting for pending navigations. Status: ok
+[1691589629.116][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=114.0.5735.248)
+[1691589629.123][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND GetTitle {
+}
+[1691589629.123][INFO]: Waiting for pending navigations...
+[1691589629.125][INFO]: Done waiting for pending navigations. Status: ok
+[1691589629.128][INFO]: Waiting for pending navigations...
+[1691589629.129][INFO]: Done waiting for pending navigations. Status: ok
+[1691589629.129][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE GetTitle "localhost"
+[1691589629.148][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND Navigate {
+   "url": "http://localhost:9999"
+}
+[1691589629.148][INFO]: Waiting for pending navigations...
+[1691589629.149][INFO]: Done waiting for pending navigations. Status: ok
+[1691589629.254][INFO]: Waiting for pending navigations...
+[1691589629.268][INFO]: Done waiting for pending navigations. Status: ok
+[1691589631.542][INFO]: Waiting for pending navigations...
+[1691589631.557][INFO]: Done waiting for pending navigations. Status: ok
+[1691589631.648][INFO]: Waiting for pending navigations...
+[1691589631.662][INFO]: Done waiting for pending navigations. Status: ok
+[1691589631.662][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=114.0.5735.248)
+[1691589631.900][INFO]: [d78d41dfc57853219542368eecba6dcc] COMMAND Quit {
+}
+[1691589631.956][INFO]: [d78d41dfc57853219542368eecba6dcc] RESPONSE Quit
